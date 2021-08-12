@@ -28,6 +28,6 @@ jobs:
 
       - run: npm  run  build        
     
-      - run: npm run netlify:deploy
+      - run:
+          command: curl -X POST -d {} ${netlify_endpoint}
 
-      
