@@ -26,7 +26,7 @@ jobs:
       # run tests!
       - run: npm test
 
-     - run :  npm lint     
+      - run: npm run lint
     
       - run:
           command: curl -X POST -d {} ${netlify_endpoint}
