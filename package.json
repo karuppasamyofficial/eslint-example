@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
-    "netlify:deploy": "netlify deploy --dir=./build -p"
+    "netlify:deploy": "netlify deploy --dir=./build -p -m"
   },
   "eslintConfig": {
     "extends": [
