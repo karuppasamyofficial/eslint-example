@@ -67,7 +67,6 @@ function App() {
     setUserData(newArr);
   };
 
-  console.log('onSubmitForm', userData);
   return (
     <div className="App">
       <div className="topbar">

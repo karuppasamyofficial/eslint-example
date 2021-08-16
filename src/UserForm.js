@@ -13,7 +13,7 @@ class UserForm extends Component {
 
   componentDidMount() {
     const { currentUser } = this.props;
-    console.log('userform edit field', currentUser);
+
     if (currentUser != null) {
       this.setState({
         id: currentUser.id,
