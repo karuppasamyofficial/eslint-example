@@ -22,8 +22,10 @@
     "lint-fix": "eslint --fix src/**/*.js"
   },
   "pre-commit": [
-  "lint"
-   ],
+    "lint"
+  ], "pre-push": [
+    "lint"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,6 +51,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1"
   }
 }
