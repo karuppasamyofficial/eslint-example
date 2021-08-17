@@ -21,6 +21,11 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint --fix src/**/*.js"
   },
+ "husky":{
+   "hooks":{
+"pre-push":"npm run lint"
+   }
+ },
   "eslintConfig": {
     "extends": [
       "react-app",
