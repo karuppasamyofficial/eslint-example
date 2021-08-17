@@ -114,7 +114,7 @@ function App() {
                   {/* <div> */}
                   <TableCell>
                     <Button variant="outlined" color="primary" onClick={() => { onClickEdit(data); }}>
-                      m
+                      kj
                     </Button>
                     <Button variant="outlined" color="primary" onClick={() => { deleteUserItem(data); }}>
                       delete
