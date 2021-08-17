@@ -22,7 +22,7 @@
     "lint-fix": "eslint --fix src/**/*.js"
   },
   "pre-commit": [
-    "lint"
+  "lint"
    ],
   "eslintConfig": {
     "extends": [
