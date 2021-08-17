@@ -32,7 +32,7 @@ function App() {
   const [currentUser, setCurrentUser] = React.useState(null);
   const [userData, setUserData] = React.useState(initialData);
   const [flow, setFlow] = React.useState(null);
-  const lk = 'bebfj';
+  const lk = 'dlkdfwljfe';
   const handleClickOpen = () => {
     setFlow('add');
     setOpen(true);
@@ -111,14 +111,20 @@ function App() {
                   <TableCell>
                     {data.designation}
                   </TableCell>
-                  <div>
+                  {/* <div> */}
+                  <TableCell>
                     <Button variant="outlined" color="primary" onClick={() => { onClickEdit(data); }}>
-                      edit
+                      edi
                     </Button>
                     <Button variant="outlined" color="primary" onClick={() => { deleteUserItem(data); }}>
                       delete
                     </Button>
-                  </div>
+
+                  </TableCell>
+
+                  {/* </div> */}
+                  {/* <TableCell /> */}
+
                 </TableRow>
               ))}
             </TableBody>

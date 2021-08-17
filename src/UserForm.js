@@ -8,7 +8,9 @@ import InputLabel from '@material-ui/core/InputLabel';
 class UserForm extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      id: '', name: '', emailId: '', designation: '',
+    };
   }
 
   componentDidMount() {
@@ -52,11 +54,11 @@ class UserForm extends Component {
       <form>
         <Grid container>
           <Grid container className="container-btm">
-            <Grid md={6}>
-              <FormControl rolLabel><InputLabel>Id</InputLabel></FormControl>
+            <Grid md={6} item>
+              <FormControl><InputLabel>Id</InputLabel></FormControl>
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={6} item>
               <TextField
                 data-testid="id"
                 value={id}
@@ -70,11 +72,11 @@ class UserForm extends Component {
             </Grid>
           </Grid>
           <Grid container className="container-btm">
-            <Grid md={6}>
-              <FormControl rolLabel><InputLabel>Name</InputLabel></FormControl>
+            <Grid md={6} item>
+              <FormControl><InputLabel>Name</InputLabel></FormControl>
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={6} item>
               <TextField
                 data-testid="name"
                 value={name}
@@ -88,11 +90,11 @@ class UserForm extends Component {
             </Grid>
           </Grid>
           <Grid container className="container-btm">
-            <Grid md={6}>
-              <FormControl rolLabel><InputLabel>Email Id</InputLabel></FormControl>
+            <Grid md={6} item>
+              <FormControl><InputLabel>Email Id</InputLabel></FormControl>
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={6} item>
               <TextField
                 data-testid="emailId"
                 value={emailId}
@@ -106,11 +108,11 @@ class UserForm extends Component {
             </Grid>
           </Grid>
           <Grid container className="container-btm">
-            <Grid md={6}>
-              <FormControl rolLabel><InputLabel>Designation</InputLabel></FormControl>
+            <Grid md={6} item>
+              <FormControl><InputLabel>Designation</InputLabel></FormControl>
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={6} item>
               <TextField
                 data-testid="designation"
                 value={designation}
