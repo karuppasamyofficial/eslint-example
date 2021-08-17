@@ -5,7 +5,7 @@ it('User Form fields', () => {
   const {getByTestId }=render(<UserForm/>);
   const id=getByTestId("id");
   expect(id).toBeTruthy();
-  const name=getByTestId("name");
+  const name=getByTestId("nameo");
   expect(name).toBeTruthy();
   const emailId=getByTestId("emailId");
   expect(emailId).toBeTruthy();
