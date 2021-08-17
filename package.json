@@ -21,8 +21,7 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint --fix src/**/*.js"
   },
- 
-   "pre-push": [
+  "pre-push": [
     "lint"
   ],
   "eslintConfig": {
@@ -49,8 +48,6 @@
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "pre-commit": "^1.2.2",
-    "pre-push": "^0.1.1"
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
