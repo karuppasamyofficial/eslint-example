@@ -21,9 +21,8 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint --fix src/**/*.js"
   },
-  "pre-commit": [
-    "lint"
-  ], "pre-push": [
+ 
+   "pre-push": [
     "lint"
   ],
   "eslintConfig": {
