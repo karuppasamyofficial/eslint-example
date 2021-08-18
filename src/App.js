@@ -26,13 +26,20 @@ const initialData = [{
   designation: 'Consultant',
 
 },
+{
+  id: '3',
+  name: 'kumar',
+  emailId: 'kumar@gmail.com',
+  designation: 'Consultant',
+
+},
 ];
 function App() {
   const [open, setOpen] = React.useState(false);
   const [currentUser, setCurrentUser] = React.useState(null);
   const [userData, setUserData] = React.useState(initialData);
   const [flow, setFlow] = React.useState(null);
-  const lk = 'dmsl';
+  // const lk = 'dmsl';
   const handleClickOpen = () => {
     setFlow('add');
     setOpen(true);
@@ -113,10 +120,10 @@ function App() {
                   </TableCell>
                   {/* <div> */}
                   <TableCell>
-                    <Button variant="outlined" color="primary" onClick={() => { onClickEdit(data); }}>
-                      edit button
+                    <Button variant="outlined" className="edit-btn" color="primary" onClick={() => { onClickEdit(data); }}>
+                      edit
                     </Button>
-                    <Button variant="outlined" color="primary" onClick={() => { deleteUserItem(data); }}>
+                    <Button variant="outlined" className="delete-btn" color="primary" onClick={() => { deleteUserItem(data); }}>
                       delete
                     </Button>
 

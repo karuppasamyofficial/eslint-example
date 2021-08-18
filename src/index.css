@@ -30,3 +30,13 @@ code {
 .cancel-btn{
   color: red  !important;
 }
+.delete-btn{
+
+  color: white !important;
+  background-color: brown !important;
+}
+.edit-btn{
+  margin-right: 20px !important;
+    background-color: darkseagreen !important;
+    color: white !important;
+}
