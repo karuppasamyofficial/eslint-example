@@ -39,7 +39,7 @@ function App() {
   const [currentUser, setCurrentUser] = React.useState(null);
   const [userData, setUserData] = React.useState(initialData);
   const [flow, setFlow] = React.useState(null);
-  // const lk = 'dmsl';
+  const lk = 'dmsl';
   const handleClickOpen = () => {
     setFlow('add');
     setOpen(true);
@@ -121,7 +121,7 @@ function App() {
                   {/* <div> */}
                   <TableCell>
                     <Button variant="outlined" className="edit-btn" color="primary" onClick={() => { onClickEdit(data); }}>
-                      edit
+                      l
                     </Button>
                     <Button variant="outlined" className="delete-btn" color="primary" onClick={() => { deleteUserItem(data); }}>
                       delete
